@@ -3,8 +3,8 @@ let elTable = document.getElementById('table')
 let elForm = document.getElementById('form')
 
 //Making a Constructor function
-let Students = function(name, codeClass, languageSkills){
-    this.studentName = name
+let Students = function(studentName, codeClass, languageSkills){
+    this.studentName = studentName
     this.codeClass = codeClass
     this.languageSkills = languageSkills
 }
@@ -76,7 +76,7 @@ elForm.addEventListener('submit', createNewStudent)
 
 function populateTable(){
     displayTableHeader()
-    for(let i=0; i < 6; i++){
+    for(let i=0; i < 20; i++){
         displayTableInfo(studentArray[i])
     }
 }
