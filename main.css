@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    background-color: grey;
+    background-image: url(./assets/newbackground.jpg);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tablediv {
+    width: 45%;
+}
+
+th {
+    height: 30px;
+}
+
+table, th, td {
+    border: 2px solid gray;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#formdiv {
+    width: 40%;
+}
+
+#form {
+    width: 300px;
+    padding-left: 120px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 15px 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    transition: 1s;
+}

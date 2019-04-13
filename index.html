@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coder Bootcamp</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div id="article">
+        <h1>Code Partners Original</h1><br><br>
+
+        <div id="tablediv">
+            <h2>Student List:</h2>
+            <table id="table"></table>
+        </div>
+        
+
+        <div id="form-div">
+            <h2 id="enroll">Enroll Individuals:</h2>
+            <form id="form">
+                <h3 class="name">Name:</h4>
+                <input name="studentName" required onfocus="this.value=''">
+
+                <h3 id="class">School Attended:</h3>
+                <input name="codeClass" required onfocus="this.value=''">
+
+                <h3 id="language">Language Skills:</h3>
+                <input name="languageSkills" required onfocus="this.value=''"><br>
+
+                <button id="submitButton" type="submit">Enroll</button>
+                
+                <button id="resetButton" type="reset">Clear</button>
+            </form>
+
+        </div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
