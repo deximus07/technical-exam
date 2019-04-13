@@ -76,7 +76,7 @@ elForm.addEventListener('submit', createNewStudent)
 
 function populateTable(){
     displayTableHeader()
-    for(let i=0; i < 20; i++){
+    for(let i=0; i < studentArray.length; i++){
         displayTableInfo(studentArray[i])
     }
 }
